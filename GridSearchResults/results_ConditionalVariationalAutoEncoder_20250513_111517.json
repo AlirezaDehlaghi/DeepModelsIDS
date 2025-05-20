@@ -1,0 +1,2234 @@
+{
+  "model": "ConditionalVariationalAutoEncoder",
+  "search_space": {
+    "hidden_layers": [
+      [
+        64,
+        32
+      ],
+      [
+        128,
+        64
+      ],
+      [
+        64
+      ],
+      [
+        32
+      ]
+    ],
+    "latent_dim": [
+      10,
+      20,
+      30
+    ],
+    "dropout": [
+      0.0,
+      0.1
+    ],
+    "activation": [
+      "relu",
+      "leaky_relu"
+    ],
+    "batch_size": [
+      32
+    ],
+    "lr": [
+      0.001
+    ],
+    "optimizer": [
+      "adam",
+      "sgd"
+    ],
+    "epochs": [
+      50
+    ]
+  },
+  "best_config": {
+    "hidden_layers": [
+      64
+    ],
+    "latent_dim": 20,
+    "dropout": 0.1,
+    "activation": "relu",
+    "batch_size": 32,
+    "lr": 0.001,
+    "optimizer": "adam",
+    "epochs": 50
+  },
+  "best_config_by_accuracy": {
+    "hidden_layers": [
+      64,
+      32
+    ],
+    "latent_dim": 30,
+    "dropout": 0.1,
+    "activation": "leaky_relu",
+    "batch_size": 32,
+    "lr": 0.001,
+    "optimizer": "sgd",
+    "epochs": 50
+  },
+  "all_results": [
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02250641956925392,
+      {
+        "threshold": 0.038220275193452835,
+        "accuracy": 0.8544867454820061,
+        "precision": 0.869676153091266,
+        "recall": 0.6753543667123914,
+        "f1": 0.7602951269732326
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.027801305055618286,
+      {
+        "threshold": 0.06234559789299965,
+        "accuracy": 0.9047966251757721,
+        "precision": 0.9355788698693172,
+        "recall": 0.7747294619722603,
+        "f1": 0.8475904618976154
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022560179233551025,
+      {
+        "threshold": 0.03169675171375275,
+        "accuracy": 0.8641737409509921,
+        "precision": 0.8498849353867941,
+        "recall": 0.7317482091144643,
+        "f1": 0.7864045864045864
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.028599049896001816,
+      {
+        "threshold": 0.06437158584594727,
+        "accuracy": 0.9045883026925681,
+        "precision": 0.9361741376129865,
+        "recall": 0.7735101356500533,
+        "f1": 0.8471039893173092
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022588128224015236,
+      {
+        "threshold": 0.03295273333787918,
+        "accuracy": 0.8677152231654601,
+        "precision": 0.8599820948970457,
+        "recall": 0.732053040695016,
+        "f1": 0.790877655195126
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.029060082510113716,
+      {
+        "threshold": 0.06026182696223259,
+        "accuracy": 0.904640383313369,
+        "precision": 0.9306263656227239,
+        "recall": 0.7789971040999848,
+        "f1": 0.8480876130423961
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022482281550765038,
+      {
+        "threshold": 0.05753128230571747,
+        "accuracy": 0.8673506588198532,
+        "precision": 0.9603211009174312,
+        "recall": 0.6381649138850785,
+        "f1": 0.7667795989378261
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.02827269211411476,
+      {
+        "threshold": 0.05941075459122658,
+        "accuracy": 0.9056299151085881,
+        "precision": 0.9325924576425578,
+        "recall": 0.7802164304221917,
+        "f1": 0.8496265560165974
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02249964512884617,
+      {
+        "threshold": 0.06532609462738037,
+        "accuracy": 0.8653715952294151,
+        "precision": 0.9668858619069985,
+        "recall": 0.6274958085657674,
+        "f1": 0.7610684906183565
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.02958626300096512,
+      {
+        "threshold": 0.06409041583538055,
+        "accuracy": 0.903182125930941,
+        "precision": 0.9287016776075857,
+        "recall": 0.7762536198750191,
+        "f1": 0.845662100456621
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02248452976346016,
+      {
+        "threshold": 0.03773919492959976,
+        "accuracy": 0.8539659392739961,
+        "precision": 0.8669662043367845,
+        "recall": 0.6764212772443225,
+        "f1": 0.759931506849315
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.029526442289352417,
+      {
+        "threshold": 0.06831419467926025,
+        "accuracy": 0.904640383313369,
+        "precision": 0.9397545555968762,
+        "recall": 0.7703094040542601,
+        "f1": 0.8466370717815562
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022437099367380142,
+      {
+        "threshold": 0.03377024829387665,
+        "accuracy": 0.8603197750117182,
+        "precision": 0.8460303300624442,
+        "recall": 0.7227556774881878,
+        "f1": 0.7795495643596909
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.0300845205783844,
+      {
+        "threshold": 0.0615290142595768,
+        "accuracy": 0.9049007864173741,
+        "precision": 0.9289726399710092,
+        "recall": 0.7814357567443987,
+        "f1": 0.848841059602649
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022451352328062057,
+      {
+        "threshold": 0.03397427126765251,
+        "accuracy": 0.8501640539555232,
+        "precision": 0.844170403587444,
+        "recall": 0.6886145404663924,
+        "f1": 0.758499118609922
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.02892185188829899,
+      {
+        "threshold": 0.059439659118652344,
+        "accuracy": 0.9046924639341701,
+        "precision": 0.9307958477508651,
+        "recall": 0.7789971040999848,
+        "f1": 0.8481579820776636
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022442376241087914,
+      {
+        "threshold": 0.03592701256275177,
+        "accuracy": 0.8500598927139211,
+        "precision": 0.8461827754795036,
+        "recall": 0.6858710562414266,
+        "f1": 0.7576395319471336
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.03099694289267063,
+      {
+        "threshold": 0.07208766043186188,
+        "accuracy": 0.9049007864173741,
+        "precision": 0.9409573477370088,
+        "recall": 0.7700045724737082,
+        "f1": 0.846940486169321
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022510064765810966,
+      {
+        "threshold": 0.032433733344078064,
+        "accuracy": 0.8488620384354981,
+        "precision": 0.8251288430780167,
+        "recall": 0.7076665142508763,
+        "f1": 0.7618969478175254
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.030491985380649567,
+      {
+        "threshold": 0.0674893856048584,
+        "accuracy": 0.9036508515181501,
+        "precision": 0.9335542057794957,
+        "recall": 0.7730528882792257,
+        "f1": 0.8457562114390528
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022503895685076714,
+      {
+        "threshold": 0.033640824258327484,
+        "accuracy": 0.8619342742565491,
+        "precision": 0.8523792357606345,
+        "recall": 0.7207742722146014,
+        "f1": 0.7810719299694442
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.030997850000858307,
+      {
+        "threshold": 0.06438515335321426,
+        "accuracy": 0.9045883026925681,
+        "precision": 0.9321878998354962,
+        "recall": 0.7773205304069501,
+        "f1": 0.8477393617021277
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022450929507613182,
+      {
+        "threshold": 0.03852594643831253,
+        "accuracy": 0.8550596323108172,
+        "precision": 0.870101880877743,
+        "recall": 0.6768785246151501,
+        "f1": 0.7614230604372053
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64,
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.030435623601078987,
+      {
+        "threshold": 0.0684569776058197,
+        "accuracy": 0.9067756887662101,
+        "precision": 0.9448070110013053,
+        "recall": 0.7722908093278463,
+        "f1": 0.8498825897349882
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022461438551545143,
+      {
+        "threshold": 0.038569170981645584,
+        "accuracy": 0.8527680849955731,
+        "precision": 0.865505090054816,
+        "recall": 0.6738302088096326,
+        "f1": 0.7577341674522238
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.029092732816934586,
+      {
+        "threshold": 0.06628501415252686,
+        "accuracy": 0.9043278995885631,
+        "precision": 0.9357933579335793,
+        "recall": 0.7730528882792257,
+        "f1": 0.8466739003422085
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02247784473001957,
+      {
+        "threshold": 0.033087797462940216,
+        "accuracy": 0.8634966928805792,
+        "precision": 0.8510334996436208,
+        "recall": 0.7279378143575674,
+        "f1": 0.7846874229852953
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.028719736263155937,
+      {
+        "threshold": 0.06464339047670364,
+        "accuracy": 0.9027654809645331,
+        "precision": 0.9308002936857562,
+        "recall": 0.7729004724889499,
+        "f1": 0.8445332667166292
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022467514500021935,
+      {
+        "threshold": 0.03335732966661453,
+        "accuracy": 0.8645383052965991,
+        "precision": 0.8526897043106519,
+        "recall": 0.7296143880506021,
+        "f1": 0.7863655030800821
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.02926860935986042,
+      {
+        "threshold": 0.06469976902008057,
+        "accuracy": 0.9041195771053591,
+        "precision": 0.9339830820154469,
+        "recall": 0.7741197988111569,
+        "f1": 0.8465705475456288
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02256476879119873,
+      {
+        "threshold": 0.030982451513409615,
+        "accuracy": 0.8598510494245092,
+        "precision": 0.8433286018452804,
+        "recall": 0.7244322511812223,
+        "f1": 0.7793719767155859
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.028956107795238495,
+      {
+        "threshold": 0.06585673242807388,
+        "accuracy": 0.9042758189677621,
+        "precision": 0.9370719970386822,
+        "recall": 0.7716811461667429,
+        "f1": 0.8463724506853895
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022520584985613823,
+      {
+        "threshold": 0.03312939405441284,
+        "accuracy": 0.8471433779490651,
+        "precision": 0.8176243868255081,
+        "recall": 0.7113244932174974,
+        "f1": 0.76077919960877
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.029736336320638657,
+      {
+        "threshold": 0.06294053792953491,
+        "accuracy": 0.901723868548513,
+        "precision": 0.9238302502720348,
+        "recall": 0.7764060356652949,
+        "f1": 0.8437267080745341
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022549208253622055,
+      {
+        "threshold": 0.03230468928813934,
+        "accuracy": 0.8657361595750221,
+        "precision": 0.8536671994317173,
+        "recall": 0.7326627038561195,
+        "f1": 0.7885498687664043
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.03067728318274021,
+      {
+        "threshold": 0.06880199909210205,
+        "accuracy": 0.9050049476589761,
+        "precision": 0.9383675735702388,
+        "recall": 0.772748056698674,
+        "f1": 0.8475426278836509
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022440124303102493,
+      {
+        "threshold": 0.03392038121819496,
+        "accuracy": 0.8555283578980262,
+        "precision": 0.8390331244404655,
+        "recall": 0.7142203932327389,
+        "f1": 0.7716120533508973
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.030808918178081512,
+      {
+        "threshold": 0.06835737824440002,
+        "accuracy": 0.9056819957293891,
+        "precision": 0.9398148148148148,
+        "recall": 0.7735101356500533,
+        "f1": 0.8485912549117965
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022574422881007195,
+      {
+        "threshold": 0.03541596233844757,
+        "accuracy": 0.8681839487526691,
+        "precision": 0.8690476190476191,
+        "recall": 0.7232129248590154,
+        "f1": 0.7894517926961152
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.03051435947418213,
+      {
+        "threshold": 0.07081152498722076,
+        "accuracy": 0.9065152856622051,
+        "precision": 0.9455871353777113,
+        "recall": 0.7707666514250876,
+        "f1": 0.8492736585775464
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02245069295167923,
+      {
+        "threshold": 0.04027370736002922,
+        "accuracy": 0.8539138586531951,
+        "precision": 0.8718811881188119,
+        "recall": 0.671086724584667,
+        "f1": 0.7584187408491947
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.0317462794482708,
+      {
+        "threshold": 0.06686979532241821,
+        "accuracy": 0.902713400343732,
+        "precision": 0.9293687099725526,
+        "recall": 0.7741197988111569,
+        "f1": 0.8446698819225013
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022615376859903336,
+      {
+        "threshold": 0.03290015831589699,
+        "accuracy": 0.8656840789542212,
+        "precision": 0.8554087825776509,
+        "recall": 0.7303764670019814,
+        "f1": 0.7879634958480638
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.031403254717588425,
+      {
+        "threshold": 0.06917763501405716,
+        "accuracy": 0.9039633352429561,
+        "precision": 0.9368401555843675,
+        "recall": 0.7709190672153635,
+        "f1": 0.8458193979933111
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022639283910393715,
+      {
+        "threshold": 0.031322550028562546,
+        "accuracy": 0.8601635331493152,
+        "precision": 0.8415579837856891,
+        "recall": 0.7277853985672915,
+        "f1": 0.7805476093175315
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.030689992010593414,
+      {
+        "threshold": 0.06360029429197311,
+        "accuracy": 0.9039633352429561,
+        "precision": 0.9293646459129802,
+        "recall": 0.7780826093583295,
+        "f1": 0.8470217355234778
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022497856989502907,
+      {
+        "threshold": 0.03584830090403557,
+        "accuracy": 0.8638612572261861,
+        "precision": 0.8534837900770196,
+        "recall": 0.7262612406645328,
+        "f1": 0.7847496706192358
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.030849749222397804,
+      {
+        "threshold": 0.06366551667451859,
+        "accuracy": 0.9033383677933441,
+        "precision": 0.9285844416104937,
+        "recall": 0.7768632830361225,
+        "f1": 0.8459751037344398
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022520745173096657,
+      {
+        "threshold": 0.03972100839018822,
+        "accuracy": 0.8539138586531951,
+        "precision": 0.8699763593380615,
+        "recall": 0.6730681298582533,
+        "f1": 0.7589584944573344
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.03738158568739891,
+      {
+        "threshold": 0.074638232588768,
+        "accuracy": 0.8988073537836571,
+        "precision": 0.9230487358006596,
+        "recall": 0.7678707514098461,
+        "f1": 0.8383392961144853
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022521473467350006,
+      {
+        "threshold": 0.03855184465646744,
+        "accuracy": 0.8532888912035832,
+        "precision": 0.8666274970622797,
+        "recall": 0.6744398719707362,
+        "f1": 0.758549755721265
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.03866962715983391,
+      {
+        "threshold": 0.08040820807218552,
+        "accuracy": 0.9006301755116921,
+        "precision": 0.9307535641547862,
+        "recall": 0.7661941777168114,
+        "f1": 0.8404949005183079
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02245134301483631,
+      {
+        "threshold": 0.03753088042140007,
+        "accuracy": 0.8537576167907921,
+        "precision": 0.8633107454017425,
+        "recall": 0.6796220088401158,
+        "f1": 0.7605321507760532
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.03942897170782089,
+      {
+        "threshold": 0.07553000748157501,
+        "accuracy": 0.9000572886828812,
+        "precision": 0.9229227405247813,
+        "recall": 0.7719859777472946,
+        "f1": 0.8407336708440535
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022492967545986176,
+      {
+        "threshold": 0.03831890970468521,
+        "accuracy": 0.8549033904484141,
+        "precision": 0.8708980153271763,
+        "recall": 0.6755067825026673,
+        "f1": 0.7608583690987124
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.03853032737970352,
+      {
+        "threshold": 0.07621262222528458,
+        "accuracy": 0.9010468204781001,
+        "precision": 0.9261290912415432,
+        "recall": 0.7719859777472946,
+        "f1": 0.8420615128844555
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022514183074235916,
+      {
+        "threshold": 0.0406244657933712,
+        "accuracy": 0.8529243268579761,
+        "precision": 0.8690499703732965,
+        "recall": 0.6706294772138394,
+        "f1": 0.7570543702684102
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.04199628904461861,
+      {
+        "threshold": 0.07798072695732117,
+        "accuracy": 0.8989115150252591,
+        "precision": 0.9181752353367125,
+        "recall": 0.7730528882792257,
+        "f1": 0.839387670666115
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02253752574324608,
+      {
+        "threshold": 0.03922366723418236,
+        "accuracy": 0.8550075516900162,
+        "precision": 0.872852912142152,
+        "recall": 0.6738302088096326,
+        "f1": 0.7605367280233958
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.04506547749042511,
+      {
+        "threshold": 0.08559707552194595,
+        "accuracy": 0.8989635956460601,
+        "precision": 0.9221633473414946,
+        "recall": 0.7692424935223289,
+        "f1": 0.8387900947315938
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02243538573384285,
+      {
+        "threshold": 0.03500792011618614,
+        "accuracy": 0.8553200354148222,
+        "precision": 0.844096780061852,
+        "recall": 0.7072092668800488,
+        "f1": 0.7696135345828495
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.04246057569980621,
+      {
+        "threshold": 0.07998932152986526,
+        "accuracy": 0.9004739336492891,
+        "precision": 0.9238060517681371,
+        "recall": 0.7724432251181222,
+        "f1": 0.8413712957582801
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02246498316526413,
+      {
+        "threshold": 0.03463860601186752,
+        "accuracy": 0.8525076818915681,
+        "precision": 0.8489612577203818,
+        "recall": 0.691358024691358,
+        "f1": 0.7620967741935484
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.04221508279442787,
+      {
+        "threshold": 0.08318830281496048,
+        "accuracy": 0.9011509817197021,
+        "precision": 0.9326405641120802,
+        "recall": 0.7660417619265356,
+        "f1": 0.8411715481171548
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022484079003334045,
+      {
+        "threshold": 0.040158189833164215,
+        "accuracy": 0.8520389563043591,
+        "precision": 0.8657097915847425,
+        "recall": 0.671086724584667,
+        "f1": 0.7560745256289174
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.046005744487047195,
+      {
+        "threshold": 0.09301725029945374,
+        "accuracy": 0.902713400343732,
+        "precision": 0.9408228442607552,
+        "recall": 0.7632982777015699,
+        "f1": 0.842813867384719
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022540399804711342,
+      {
+        "threshold": 0.03370312601327896,
+        "accuracy": 0.8489141190562991,
+        "precision": 0.8118609406952966,
+        "recall": 0.726108824874257,
+        "f1": 0.7665942553705045
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.046832118183374405,
+      {
+        "threshold": 0.08518917858600616,
+        "accuracy": 0.8987031925420551,
+        "precision": 0.918874773139746,
+        "recall": 0.7716811461667429,
+        "f1": 0.8388700190539309
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022460399195551872,
+      {
+        "threshold": 0.03494419530034065,
+        "accuracy": 0.8508411020259361,
+        "precision": 0.8425050954233834,
+        "recall": 0.6930345983843926,
+        "f1": 0.7604950660645592
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.04546201601624489,
+      {
+        "threshold": 0.085568368434906,
+        "accuracy": 0.9007864173740951,
+        "precision": 0.9298375184638109,
+        "recall": 0.7675659198292943,
+        "f1": 0.8409451448609835
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022471047937870026,
+      {
+        "threshold": 0.03910982981324196,
+        "accuracy": 0.8530805687203792,
+        "precision": 0.8673870333988212,
+        "recall": 0.6729157140679775,
+        "f1": 0.7578748605269934
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          64
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.044242069125175476,
+      {
+        "threshold": 0.08484648913145065,
+        "accuracy": 0.901984271652518,
+        "precision": 0.9317217198745156,
+        "recall": 0.7695473251028807,
+        "f1": 0.8429048414023372
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022476667538285255,
+      {
+        "threshold": 0.040545348078012466,
+        "accuracy": 0.8544867454820061,
+        "precision": 0.8727488620621413,
+        "recall": 0.6721536351165981,
+        "f1": 0.7594282762183572
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.039580006152391434,
+      {
+        "threshold": 0.08756247162818909,
+        "accuracy": 0.9028696422061351,
+        "precision": 0.9431861079652699,
+        "recall": 0.7616217040085352,
+        "f1": 0.8427354751665401
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022580387070775032,
+      {
+        "threshold": 0.038661837577819824,
+        "accuracy": 0.8563095672100411,
+        "precision": 0.8758402530644523,
+        "recall": 0.6752019509221155,
+        "f1": 0.762544108787331
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.04021706432104111,
+      {
+        "threshold": 0.0803639367222786,
+        "accuracy": 0.8999010468204781,
+        "precision": 0.9261436707697961,
+        "recall": 0.7683279987806737,
+        "f1": 0.8398867044318561
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022436853498220444,
+      {
+        "threshold": 0.033704087138175964,
+        "accuracy": 0.8568303734180511,
+        "precision": 0.8479372033588901,
+        "recall": 0.7079713458314282,
+        "f1": 0.7716587756458179
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.038434676826000214,
+      {
+        "threshold": 0.07540728151798248,
+        "accuracy": 0.9003176917868861,
+        "precision": 0.92516010978957,
+        "recall": 0.7706142356348118,
+        "f1": 0.8408448361882589
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02243720553815365,
+      {
+        "threshold": 0.03992270305752754,
+        "accuracy": 0.8543305036196032,
+        "precision": 0.8722310126582279,
+        "recall": 0.6721536351165981,
+        "f1": 0.7592321597658603
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 10,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.03891032934188843,
+      {
+        "threshold": 0.07108962535858154,
+        "accuracy": 0.8956304359147961,
+        "precision": 0.9100233939175815,
+        "recall": 0.7707666514250876,
+        "f1": 0.8346261759366232
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02253652736544609,
+      {
+        "threshold": 0.06712902337312698,
+        "accuracy": 0.8649549502630072,
+        "precision": 0.9666039510818438,
+        "recall": 0.6264288980338363,
+        "f1": 0.7601960602977897
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.046070244163274765,
+      {
+        "threshold": 0.08625302463769913,
+        "accuracy": 0.9007343367532941,
+        "precision": 0.9272994308793832,
+        "recall": 0.7698521566834324,
+        "f1": 0.8412724850099934
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022510450333356857,
+      {
+        "threshold": 0.039701685309410095,
+        "accuracy": 0.8521951981667621,
+        "precision": 0.8660766961651918,
+        "recall": 0.6712391403749428,
+        "f1": 0.7563111798042246
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.0454549677670002,
+      {
+        "threshold": 0.08547269552946091,
+        "accuracy": 0.9026092391021301,
+        "precision": 0.9345932925699463,
+        "recall": 0.7687852461515013,
+        "f1": 0.8436193343368455
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022441841661930084,
+      {
+        "threshold": 0.036851584911346436,
+        "accuracy": 0.8569866152804542,
+        "precision": 0.8592955358824638,
+        "recall": 0.6953208352385307,
+        "f1": 0.7686604886267903
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.04569553583860397,
+      {
+        "threshold": 0.08395860344171524,
+        "accuracy": 0.901255142961304,
+        "precision": 0.9263388777188813,
+        "recall": 0.7724432251181222,
+        "f1": 0.8424202127659575
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022447261959314346,
+      {
+        "threshold": 0.033672261983156204,
+        "accuracy": 0.8551637935524191,
+        "precision": 0.8420195439739414,
+        "recall": 0.7091906721536351,
+        "f1": 0.7699180938198064
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 20,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.04161237180233002,
+      {
+        "threshold": 0.08296066522598267,
+        "accuracy": 0.9051611895213791,
+        "precision": 0.9439865118021731,
+        "recall": 0.768023167200122,
+        "f1": 0.8469619295739139
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.022525543347001076,
+      {
+        "threshold": 0.03227680176496506,
+        "accuracy": 0.8414145096609552,
+        "precision": 0.7926098535286284,
+        "recall": 0.7258039932937053,
+        "f1": 0.757737290158326
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.04925043508410454,
+      {
+        "threshold": 0.09158910810947418,
+        "accuracy": 0.8997448049580751,
+        "precision": 0.9275175212098856,
+        "recall": 0.7664990092973633,
+        "f1": 0.8393557539848119
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02253570966422558,
+      {
+        "threshold": 0.040288206189870834,
+        "accuracy": 0.8531847299619811,
+        "precision": 0.8721161495624503,
+        "recall": 0.6683432403597013,
+        "f1": 0.75675209250151
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.0,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.049006540328264236,
+      {
+        "threshold": 0.08677813410758972,
+        "accuracy": 0.8958387583980001,
+        "precision": 0.9162255886110604,
+        "recall": 0.7651272671848803,
+        "f1": 0.8338870431893687
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02245866134762764,
+      {
+        "threshold": 0.03431319445371628,
+        "accuracy": 0.8608926618405291,
+        "precision": 0.8483166189111748,
+        "recall": 0.7219935985368084,
+        "f1": 0.7800741045697819
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.04654250666499138,
+      {
+        "threshold": 0.08646412938833237,
+        "accuracy": 0.9036508515181501,
+        "precision": 0.9358001850138761,
+        "recall": 0.7709190672153635,
+        "f1": 0.8453952866454956
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "adam",
+        "epochs": 50
+      },
+      0.02247564308345318,
+      {
+        "threshold": 0.033170800656080246,
+        "accuracy": 0.8545388261028072,
+        "precision": 0.8455612619222304,
+        "recall": 0.7026367931717726,
+        "f1": 0.7675018729709482
+      }
+    ],
+    [
+      {
+        "hidden_layers": [
+          32
+        ],
+        "latent_dim": 30,
+        "dropout": 0.1,
+        "activation": "leaky_relu",
+        "batch_size": 32,
+        "lr": 0.001,
+        "optimizer": "sgd",
+        "epochs": 50
+      },
+      0.04476051405072212,
+      {
+        "threshold": 0.08479449898004532,
+        "accuracy": 0.900994739857299,
+        "precision": 0.9364930685650056,
+        "recall": 0.7619265355890871,
+        "f1": 0.8402386755189512
+      }
+    ]
+  ]
+}

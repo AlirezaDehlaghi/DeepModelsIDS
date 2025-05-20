@@ -1,0 +1,1622 @@
+{
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0001987864961847663,
+    "metrics": {
+      "threshold": 0.006402175407856703,
+      "accuracy": 0.9208730530812106,
+      "precision": 0.8283407137275333,
+      "recall": 0.9693644261545497,
+      "f1": 0.8933211601938339
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.0007837937446311116,
+    "metrics": {
+      "threshold": 0.006711461115628481,
+      "accuracy": 0.8833368070029178,
+      "precision": 0.7549551675318547,
+      "recall": 0.9753086419753086,
+      "f1": 0.8511006184744297
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021755797788500786,
+    "metrics": {
+      "threshold": 0.051927246153354645,
+      "accuracy": 0.9104368678969867,
+      "precision": 0.9540596287267954,
+      "recall": 0.7754915409236397,
+      "f1": 0.8555574239112157
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03509099781513214,
+    "metrics": {
+      "threshold": 0.05320578068494797,
+      "accuracy": 0.9192582174298067,
+      "precision": 0.9557940694924504,
+      "recall": 0.8007925621094345,
+      "f1": 0.8714546359263557
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.025821825489401817,
+    "metrics": {
+      "threshold": 0.04646575450897217,
+      "accuracy": 0.9160587744893706,
+      "precision": 0.9549632352941176,
+      "recall": 0.7918000304831581,
+      "f1": 0.865761186567786
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.02523789182305336,
+    "metrics": {
+      "threshold": 0.04960048571228981,
+      "accuracy": 0.9144510478573663,
+      "precision": 0.9560622914349277,
+      "recall": 0.7860082304526749,
+      "f1": 0.8627352572145547
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0006213023443706334,
+    "metrics": {
+      "threshold": 0.007345873396843672,
+      "accuracy": 0.9079022763973538,
+      "precision": 0.7995999499937492,
+      "recall": 0.974851394604481,
+      "f1": 0.8785714285714286
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.002397627802565694,
+    "metrics": {
+      "threshold": 0.013386568985879421,
+      "accuracy": 0.8321696540225094,
+      "precision": 0.6898590268303775,
+      "recall": 0.9248590153939948,
+      "f1": 0.7902585140326887
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021761637181043625,
+    "metrics": {
+      "threshold": 0.05170523747801781,
+      "accuracy": 0.9111667187988739,
+      "precision": 0.9546901329339075,
+      "recall": 0.7771681146166742,
+      "f1": 0.8568307847420601
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03180864080786705,
+    "metrics": {
+      "threshold": 0.04715944081544876,
+      "accuracy": 0.9193103089024327,
+      "precision": 0.9539855072463768,
+      "recall": 0.8026215515927451,
+      "f1": 0.8717821372402947
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.025695811957120895,
+    "metrics": {
+      "threshold": 0.04543362185359001,
+      "accuracy": 0.9167361400583577,
+      "precision": 0.9545704341454478,
+      "recall": 0.7942386831275721,
+      "f1": 0.867054908485857
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.02282358892261982,
+    "metrics": {
+      "threshold": 0.048266008496284485,
+      "accuracy": 0.9127828172244813,
+      "precision": 0.9554603056280283,
+      "recall": 0.7814357567443987,
+      "f1": 0.8597300243145803
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0005592175293713808,
+    "metrics": {
+      "threshold": 0.006739986129105091,
+      "accuracy": 0.9132676980778247,
+      "precision": 0.809325246398787,
+      "recall": 0.9762231367169639,
+      "f1": 0.8849740932642487
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.004027967341244221,
+    "metrics": {
+      "threshold": 0.05778511241078377,
+      "accuracy": 0.8953730721133806,
+      "precision": 0.905287520028485,
+      "recall": 0.7750342935528121,
+      "f1": 0.8351124979471177
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.0217389278113842,
+    "metrics": {
+      "threshold": 0.05401603505015373,
+      "accuracy": 0.9084558440204358,
+      "precision": 0.9547605527162597,
+      "recall": 0.7687852461515013,
+      "f1": 0.8517392772711923
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03401749208569527,
+    "metrics": {
+      "threshold": 0.05138516053557396,
+      "accuracy": 0.9174871073605251,
+      "precision": 0.954686643522748,
+      "recall": 0.7963725041914342,
+      "f1": 0.8683729433272395
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.025622688233852386,
+    "metrics": {
+      "threshold": 0.044255100190639496,
+      "accuracy": 0.9160066694456024,
+      "precision": 0.9532881480124565,
+      "recall": 0.7931717725956409,
+      "f1": 0.8658901830282861
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.023716576397418976,
+    "metrics": {
+      "threshold": 0.047910865396261215,
+      "accuracy": 0.9144510478573663,
+      "precision": 0.9555555555555556,
+      "recall": 0.7864654778235025,
+      "f1": 0.8628041133684475
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.00021541361638810486,
+    "metrics": {
+      "threshold": 0.0037670668680220842,
+      "accuracy": 0.9154034484554878,
+      "precision": 0.8120338768802933,
+      "recall": 0.9791190367322055,
+      "f1": 0.8877833056937533
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.0013078480260446668,
+    "metrics": {
+      "threshold": 0.00786849856376648,
+      "accuracy": 0.8313880783659858,
+      "precision": 0.6776744683124933,
+      "recall": 0.966468526139308,
+      "f1": 0.7967081291619551
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021759914234280586,
+    "metrics": {
+      "threshold": 0.051358722150325775,
+      "accuracy": 0.9112709832134293,
+      "precision": 0.9548773637895526,
+      "recall": 0.7773205304069501,
+      "f1": 0.8569988237271047
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.035072777420282364,
+    "metrics": {
+      "threshold": 0.05134859308600426,
+      "accuracy": 0.9173308329426473,
+      "precision": 0.954163623082542,
+      "recall": 0.7963725041914342,
+      "f1": 0.8681565174046689
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.024612976238131523,
+    "metrics": {
+      "threshold": 0.04424412548542023,
+      "accuracy": 0.9166319299708212,
+      "precision": 0.9548872180451128,
+      "recall": 0.7936290199664685,
+      "f1": 0.8668220409522224
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.027729660272598267,
+    "metrics": {
+      "threshold": 0.04401872307062149,
+      "accuracy": 0.9169012615994161,
+      "precision": 0.9532761452819858,
+      "recall": 0.7960676726108825,
+      "f1": 0.867607973421927
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.00149670266546309,
+    "metrics": {
+      "threshold": 0.007191039621829987,
+      "accuracy": 0.8953482314945044,
+      "precision": 0.7760126121756002,
+      "recall": 0.9753086419753086,
+      "f1": 0.8643209292902005
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.0014398961793631315,
+    "metrics": {
+      "threshold": 0.057945217937231064,
+      "accuracy": 0.897665694039183,
+      "precision": 0.9215110948101962,
+      "recall": 0.7658893461362597,
+      "f1": 0.8365240552688529
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021766297519207,
+    "metrics": {
+      "threshold": 0.05137193202972412,
+      "accuracy": 0.9114795120425399,
+      "precision": 0.9550814149354295,
+      "recall": 0.7777777777777778,
+      "f1": 0.857358870967742
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03228171914815903,
+    "metrics": {
+      "threshold": 0.0489659383893013,
+      "accuracy": 0.9195186747929364,
+      "precision": 0.9555030875408645,
+      "recall": 0.8018594726413657,
+      "f1": 0.8719648628490927
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.02536553330719471,
+    "metrics": {
+      "threshold": 0.04608956351876259,
+      "accuracy": 0.9158503543142976,
+      "precision": 0.9544285189268651,
+      "recall": 0.7916476146928821,
+      "f1": 0.8654503040906439
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.024052390828728676,
+    "metrics": {
+      "threshold": 0.04711161181330681,
+      "accuracy": 0.9146595766864769,
+      "precision": 0.9554199038105808,
+      "recall": 0.7872275567748819,
+      "f1": 0.8632071530040946
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0007991479360498488,
+    "metrics": {
+      "threshold": 0.005998221691697836,
+      "accuracy": 0.896337969474397,
+      "precision": 0.775859987929994,
+      "recall": 0.9797286998933089,
+      "f1": 0.8659571601778256
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.005951406434178352,
+    "metrics": {
+      "threshold": 0.05985258147120476,
+      "accuracy": 0.8975093789078783,
+      "precision": 0.9122397702799713,
+      "recall": 0.7747294619722603,
+      "f1": 0.8378801615428995
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021757453680038452,
+    "metrics": {
+      "threshold": 0.0513489656150341,
+      "accuracy": 0.9112709832134293,
+      "precision": 0.9548773637895526,
+      "recall": 0.7773205304069501,
+      "f1": 0.8569988237271047
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.034679729491472244,
+    "metrics": {
+      "threshold": 0.0527985543012619,
+      "accuracy": 0.9179038391415325,
+      "precision": 0.9552511415525115,
+      "recall": 0.7971345831428136,
+      "f1": 0.8690594882020606
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.02685968019068241,
+    "metrics": {
+      "threshold": 0.047137562185525894,
+      "accuracy": 0.9169966652771988,
+      "precision": 0.9557798165137614,
+      "recall": 0.7939338515470202,
+      "f1": 0.8673715760552827
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.022719787433743477,
+    "metrics": {
+      "threshold": 0.05110852047801018,
+      "accuracy": 0.9122093629444271,
+      "precision": 0.9563915403331462,
+      "recall": 0.7788446883097089,
+      "f1": 0.8585349462365591
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.00015613884897902608,
+    "metrics": {
+      "threshold": 0.004368849564343691,
+      "accuracy": 0.9214981507527218,
+      "precision": 0.837293112653497,
+      "recall": 0.9561042524005487,
+      "f1": 0.8927631110794848
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.0012024396564811468,
+    "metrics": {
+      "threshold": 0.006443809252232313,
+      "accuracy": 0.8662463526469362,
+      "precision": 0.723278175313059,
+      "recall": 0.9859777472946197,
+      "f1": 0.8344405030635279
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021764660254120827,
+    "metrics": {
+      "threshold": 0.05149874836206436,
+      "accuracy": 0.9115316442498176,
+      "precision": 0.9552602021714713,
+      "recall": 0.7777777777777778,
+      "f1": 0.8574308997731664
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.0386577770113945,
+    "metrics": {
+      "threshold": 0.057760871946811676,
+      "accuracy": 0.9199354065739438,
+      "precision": 0.962956137117582,
+      "recall": 0.7963725041914342,
+      "f1": 0.8717777592391759
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.027897613123059273,
+    "metrics": {
+      "threshold": 0.04293370246887207,
+      "accuracy": 0.9180908711963318,
+      "precision": 0.9534630067260498,
+      "recall": 0.7994208199969517,
+      "f1": 0.8696733543359311
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.0237451009452343,
+    "metrics": {
+      "threshold": 0.047181252390146255,
+      "accuracy": 0.9149723699301429,
+      "precision": 0.955637707948244,
+      "recall": 0.7879896357262612,
+      "f1": 0.8637540723414919
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0005350928986445069,
+    "metrics": {
+      "threshold": 0.00789565034210682,
+      "accuracy": 0.9172266499973954,
+      "precision": 0.8158831003811944,
+      "recall": 0.9786617893613778,
+      "f1": 0.8898898205252581
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.0034121933858841658,
+    "metrics": {
+      "threshold": 0.05553462356328964,
+      "accuracy": 0.8903709879116298,
+      "precision": 0.8757376496374979,
+      "recall": 0.7916476146928821,
+      "f1": 0.8315722062119756
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021769994869828224,
+    "metrics": {
+      "threshold": 0.051621213555336,
+      "accuracy": 0.9110624543843187,
+      "precision": 0.9548435450627694,
+      "recall": 0.7767108672458467,
+      "f1": 0.8566145570684149
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03198028355836868,
+    "metrics": {
+      "threshold": 0.046442314982414246,
+      "accuracy": 0.9177996561962807,
+      "precision": 0.9525885558583106,
+      "recall": 0.7992684042066758,
+      "f1": 0.8692192938836399
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.02634652704000473,
+    "metrics": {
+      "threshold": 0.04653199762105942,
+      "accuracy": 0.9162671946644435,
+      "precision": 0.9549963262307127,
+      "recall": 0.7924096936442615,
+      "f1": 0.8661391087047063
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.02336852066218853,
+    "metrics": {
+      "threshold": 0.04741908982396126,
+      "accuracy": 0.9129392138463143,
+      "precision": 0.953626414394361,
+      "recall": 0.783569577808261,
+      "f1": 0.8602744310575636
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.00047833047574386,
+    "metrics": {
+      "threshold": 0.006651707924902439,
+      "accuracy": 0.8984216283794343,
+      "precision": 0.7809187279151943,
+      "recall": 0.9768327998780674,
+      "f1": 0.8679577464788732
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.021637216210365295,
+    "metrics": {
+      "threshold": 0.049508556723594666,
+      "accuracy": 0.905585660691955,
+      "precision": 0.932750136686714,
+      "recall": 0.7800640146319159,
+      "f1": 0.849601593625498
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021762114018201828,
+    "metrics": {
+      "threshold": 0.05145008862018585,
+      "accuracy": 0.9111667187988739,
+      "precision": 0.9545199326221224,
+      "recall": 0.7773205304069501,
+      "f1": 0.8568548387096774
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03345520421862602,
+    "metrics": {
+      "threshold": 0.0489298477768898,
+      "accuracy": 0.9191540344845549,
+      "precision": 0.9526477498644497,
+      "recall": 0.8033836305441243,
+      "f1": 0.871671903423185
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.026204129680991173,
+    "metrics": {
+      "threshold": 0.045358095318078995,
+      "accuracy": 0.9170487703209671,
+      "precision": 0.9554537121906508,
+      "recall": 0.7943910989178479,
+      "f1": 0.8675099866844209
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 128, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.026292026042938232,
+    "metrics": {
+      "threshold": 0.0451478585600853,
+      "accuracy": 0.9159628818684183,
+      "precision": 0.9534542789078249,
+      "recall": 0.7930193568053651,
+      "f1": 0.8658678648693626
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0003544611972756684,
+    "metrics": {
+      "threshold": 0.007498770486563444,
+      "accuracy": 0.9275407615773298,
+      "precision": 0.8469798657718121,
+      "recall": 0.961743636640756,
+      "f1": 0.9007208621797159
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.0028103722725063562,
+    "metrics": {
+      "threshold": 0.05076438561081886,
+      "accuracy": 0.8975614839516465,
+      "precision": 0.9322671683913453,
+      "recall": 0.7552202408169486,
+      "f1": 0.8344560458066689
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021743370220065117,
+    "metrics": {
+      "threshold": 0.05270712822675705,
+      "accuracy": 0.9089250338859347,
+      "precision": 0.9541509433962264,
+      "recall": 0.7707666514250876,
+      "f1": 0.8527105640333866
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.036435920745134354,
+    "metrics": {
+      "threshold": 0.05468763783574104,
+      "accuracy": 0.9182684794499141,
+      "precision": 0.9551422319474836,
+      "recall": 0.7983539094650206,
+      "f1": 0.8697384806973848
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.028450720012187958,
+    "metrics": {
+      "threshold": 0.04310300201177597,
+      "accuracy": 0.919237182159233,
+      "precision": 0.9538127150878464,
+      "recall": 0.8026215515927451,
+      "f1": 0.8717099817910942
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.025644583627581596,
+    "metrics": {
+      "threshold": 0.04780047759413719,
+      "accuracy": 0.9159107496611406,
+      "precision": 0.9552815605447185,
+      "recall": 0.7911903673220546,
+      "f1": 0.8655273030429346
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0004010874545201659,
+    "metrics": {
+      "threshold": 0.007122348062694073,
+      "accuracy": 0.9527530343282805,
+      "precision": 0.8970505617977528,
+      "recall": 0.9734796524919982,
+      "f1": 0.9337036766318252
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.003132574027404189,
+    "metrics": {
+      "threshold": 0.058384619653224945,
+      "accuracy": 0.8964151729887453,
+      "precision": 0.9040466513518289,
+      "recall": 0.7797591830513642,
+      "f1": 0.837315875613748
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021747414022684097,
+    "metrics": {
+      "threshold": 0.051888223737478256,
+      "accuracy": 0.9106453967260973,
+      "precision": 0.95460513974864,
+      "recall": 0.7756439567139156,
+      "f1": 0.8558694920955263
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03784856200218201,
+    "metrics": {
+      "threshold": 0.05643244460225105,
+      "accuracy": 0.9184247538677919,
+      "precision": 0.9551667577911427,
+      "recall": 0.7988111568358482,
+      "f1": 0.8700199203187252
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.025560062378644943,
+    "metrics": {
+      "threshold": 0.051760442554950714,
+      "accuracy": 0.9125677365568987,
+      "precision": 0.9559290382819795,
+      "recall": 0.7802164304221917,
+      "f1": 0.8591809331990601
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.02902139164507389,
+    "metrics": {
+      "threshold": 0.045460622757673264,
+      "accuracy": 0.9186737566468565,
+      "precision": 0.9543885153552608,
+      "recall": 0.8004877305288828,
+      "f1": 0.8706896551724138
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0006272722966969013,
+    "metrics": {
+      "threshold": 0.006727288011461496,
+      "accuracy": 0.9269677553784446,
+      "precision": 0.8346957311534968,
+      "recall": 0.9804907788446883,
+      "f1": 0.9017381553125876
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.016969123855233192,
+    "metrics": {
+      "threshold": 0.06657925248146057,
+      "accuracy": 0.9042309295539809,
+      "precision": 0.9456501226646538,
+      "recall": 0.7637555250723975,
+      "f1": 0.8450252951096121
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021768735721707344,
+    "metrics": {
+      "threshold": 0.051545146852731705,
+      "accuracy": 0.9114273798352622,
+      "precision": 0.9549026946107785,
+      "recall": 0.7777777777777778,
+      "f1": 0.8572868542629148
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.037877149879932404,
+    "metrics": {
+      "threshold": 0.05302787572145462,
+      "accuracy": 0.9181122050320363,
+      "precision": 0.9526401741970604,
+      "recall": 0.8001828989483311,
+      "f1": 0.8697813121272365
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.024371594190597534,
+    "metrics": {
+      "threshold": 0.04773889482021332,
+      "accuracy": 0.9150166736140058,
+      "precision": 0.9554693274205469,
+      "recall": 0.7881420515165372,
+      "f1": 0.8637768312035414
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.02345721609890461,
+    "metrics": {
+      "threshold": 0.04647887125611305,
+      "accuracy": 0.9153372953810864,
+      "precision": 0.9555268499723196,
+      "recall": 0.7892089620484682,
+      "f1": 0.864440734557596
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0003329870232846588,
+    "metrics": {
+      "threshold": 0.0060711996629834175,
+      "accuracy": 0.9121216856800541,
+      "precision": 0.8073915237134208,
+      "recall": 0.9756134735558604,
+      "f1": 0.8835668438125475
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.0014641772722825408,
+    "metrics": {
+      "threshold": 0.05740746110677719,
+      "accuracy": 0.8968320133388912,
+      "precision": 0.9294955934745922,
+      "recall": 0.7555250723975003,
+      "f1": 0.8335295106776526
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021750804036855698,
+    "metrics": {
+      "threshold": 0.0524190217256546,
+      "accuracy": 0.9100719424460432,
+      "precision": 0.9536585365853658,
+      "recall": 0.7747294619722603,
+      "f1": 0.8549323017408124
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.0352986715734005,
+    "metrics": {
+      "threshold": 0.05350974574685097,
+      "accuracy": 0.9173829244152732,
+      "precision": 0.9555026551913569,
+      "recall": 0.7953055936595032,
+      "f1": 0.8680751954749626
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.026194747537374496,
+    "metrics": {
+      "threshold": 0.045363642275333405,
+      "accuracy": 0.9159024593580659,
+      "precision": 0.9537699504678041,
+      "recall": 0.7924096936442615,
+      "f1": 0.8656343656343657
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.026506340131163597,
+    "metrics": {
+      "threshold": 0.04719728231430054,
+      "accuracy": 0.9170055260139715,
+      "precision": 0.9554537121906508,
+      "recall": 0.7943910989178479,
+      "f1": 0.8675099866844209
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.00040075439028441906,
+    "metrics": {
+      "threshold": 0.0070714447647333145,
+      "accuracy": 0.9214981507527218,
+      "precision": 0.8251415337107566,
+      "recall": 0.9774424630391708,
+      "f1": 0.8948580199539525
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.0026900446973741055,
+    "metrics": {
+      "threshold": 0.01290782168507576,
+      "accuracy": 0.8337849103793247,
+      "precision": 0.686883246479654,
+      "recall": 0.9442158207590307,
+      "f1": 0.7952503209242618
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.02175348997116089,
+    "metrics": {
+      "threshold": 0.05219221115112305,
+      "accuracy": 0.9102283390678761,
+      "precision": 0.9545369152733421,
+      "recall": 0.7744246303917086,
+      "f1": 0.8550992931672837
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03662298619747162,
+    "metrics": {
+      "threshold": 0.053668539971113205,
+      "accuracy": 0.9180080220867844,
+      "precision": 0.9554337899543379,
+      "recall": 0.7972869989330895,
+      "f1": 0.8692256563642407
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.026477443054318428,
+    "metrics": {
+      "threshold": 0.04253632202744484,
+      "accuracy": 0.9167882451021259,
+      "precision": 0.9530850675428989,
+      "recall": 0.7957628410303308,
+      "f1": 0.8673477863609935
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.026559848338365555,
+    "metrics": {
+      "threshold": 0.047814495861530304,
+      "accuracy": 0.9159107496611406,
+      "precision": 0.9556169429097606,
+      "recall": 0.7908855357415028,
+      "f1": 0.8654824451672087
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0007229249458760023,
+    "metrics": {
+      "threshold": 0.007239381782710552,
+      "accuracy": 0.9170182841068917,
+      "precision": 0.8176470588235294,
+      "recall": 0.9745465630239293,
+      "f1": 0.8892288436131006
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.0118569890037179,
+    "metrics": {
+      "threshold": 0.0585964098572731,
+      "accuracy": 0.8927157148812005,
+      "precision": 0.8965821000704721,
+      "recall": 0.7756439567139156,
+      "f1": 0.831739805507886
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021764058619737625,
+    "metrics": {
+      "threshold": 0.051639094948768616,
+      "accuracy": 0.9113752476279846,
+      "precision": 0.9550645946451976,
+      "recall": 0.7774729461972261,
+      "f1": 0.8571668627121494
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03154290094971657,
+    "metrics": {
+      "threshold": 0.0474499873816967,
+      "accuracy": 0.9194665833203105,
+      "precision": 0.954834028659532,
+      "recall": 0.8023167200121932,
+      "f1": 0.8719562696703661
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.027424445375800133,
+    "metrics": {
+      "threshold": 0.04870179668068886,
+      "accuracy": 0.9168403501458942,
+      "precision": 0.9552539886301119,
+      "recall": 0.7939338515470202,
+      "f1": 0.8671549858498419
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.02648322843015194,
+    "metrics": {
+      "threshold": 0.045869097113609314,
+      "accuracy": 0.9169533938066938,
+      "precision": 0.9552785923753666,
+      "recall": 0.7943910989178479,
+      "f1": 0.867437796455022
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.00042302298243157566,
+    "metrics": {
+      "threshold": 0.01104279700666666,
+      "accuracy": 0.940303172370683,
+      "precision": 0.8722672899766258,
+      "recall": 0.9669257735101356,
+      "f1": 0.9171606187653606
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.0058801984414458275,
+    "metrics": {
+      "threshold": 0.06520682573318481,
+      "accuracy": 0.9019383076281784,
+      "precision": 0.9363924640925201,
+      "recall": 0.7651272671848803,
+      "f1": 0.8421405804395236
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021746007725596428,
+    "metrics": {
+      "threshold": 0.05216547101736069,
+      "accuracy": 0.9099676780314878,
+      "precision": 0.9543233082706767,
+      "recall": 0.773814967230605,
+      "f1": 0.854641865162865
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03672923892736435,
+    "metrics": {
+      "threshold": 0.056406501680612564,
+      "accuracy": 0.9196749492108142,
+      "precision": 0.9590268886043534,
+      "recall": 0.7991159884164,
+      "f1": 0.8717991353508481
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.03209415823221207,
+    "metrics": {
+      "threshold": 0.04814618080854416,
+      "accuracy": 0.9175177157148812,
+      "precision": 0.9543629061701351,
+      "recall": 0.7968297515622619,
+      "f1": 0.8685106736439903
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.027975356206297874,
+    "metrics": {
+      "threshold": 0.04268435761332512,
+      "accuracy": 0.9187780210614117,
+      "precision": 0.9532524007972458,
+      "recall": 0.8018594726413657,
+      "f1": 0.8710264900662252
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0005779617931693792,
+    "metrics": {
+      "threshold": 0.00794388260692358,
+      "accuracy": 0.935719122779601,
+      "precision": 0.8550859885348621,
+      "recall": 0.9775948788294467,
+      "f1": 0.9122457687384441
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.005431885831058025,
+    "metrics": {
+      "threshold": 0.059295304119586945,
+      "accuracy": 0.8756773655689871,
+      "precision": 0.8591088938585928,
+      "recall": 0.7611644566377077,
+      "f1": 0.8071763374818167
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021733643487095833,
+    "metrics": {
+      "threshold": 0.052174512296915054,
+      "accuracy": 0.9100198102387655,
+      "precision": 0.9526305935218123,
+      "recall": 0.7754915409236397,
+      "f1": 0.8549823559065703
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03894933685660362,
+    "metrics": {
+      "threshold": 0.05573725700378418,
+      "accuracy": 0.9172787414700213,
+      "precision": 0.9525022747952684,
+      "recall": 0.797744246303917,
+      "f1": 0.8682813536828136
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.03368920460343361,
+    "metrics": {
+      "threshold": 0.05188474804162979,
+      "accuracy": 0.9180908711963318,
+      "precision": 0.9556164383561644,
+      "recall": 0.7974394147233653,
+      "f1": 0.8693918245264207
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.02635718509554863,
+    "metrics": {
+      "threshold": 0.04760642349720001,
+      "accuracy": 0.9159107496611406,
+      "precision": 0.9554491899852725,
+      "recall": 0.7910379515317787,
+      "f1": 0.8655048778454099
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0009756720974110067,
+    "metrics": {
+      "threshold": 0.006607094779610634,
+      "accuracy": 0.8816481741938844,
+      "precision": 0.7476613927705278,
+      "recall": 0.9867398262459991,
+      "f1": 0.8507227332457293
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.010715571232140064,
+    "metrics": {
+      "threshold": 0.036235298961400986,
+      "accuracy": 0.8696852855356398,
+      "precision": 0.7697315971299495,
+      "recall": 0.8829446730681298,
+      "f1": 0.8224604245048626
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021769868209958076,
+    "metrics": {
+      "threshold": 0.051713429391384125,
+      "accuracy": 0.9114795120425399,
+      "precision": 0.9550814149354295,
+      "recall": 0.7777777777777778,
+      "f1": 0.857358870967742
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.04351598396897316,
+    "metrics": {
+      "threshold": 0.06464995443820953,
+      "accuracy": 0.9203000468823254,
+      "precision": 0.9645429362880886,
+      "recall": 0.7960676726108825,
+      "f1": 0.8722444889779559
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.02940313145518303,
+    "metrics": {
+      "threshold": 0.04600230231881142,
+      "accuracy": 0.9194977073780742,
+      "precision": 0.9550072568940493,
+      "recall": 0.8023167200121932,
+      "f1": 0.872028493332229
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 64, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.026191001757979393,
+    "metrics": {
+      "threshold": 0.04553959146142006,
+      "accuracy": 0.9167448649775831,
+      "precision": 0.9547453279589593,
+      "recall": 0.7942386831275721,
+      "f1": 0.8671270488393378
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0006684366962872446,
+    "metrics": {
+      "threshold": 0.007492536678910255,
+      "accuracy": 0.9035265926967755,
+      "precision": 0.7977741241937524,
+      "recall": 0.9614388050602042,
+      "f1": 0.871993364666851
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.010357333347201347,
+    "metrics": {
+      "threshold": 0.09910457581281662,
+      "accuracy": 0.8946957065443935,
+      "precision": 0.9561897106109325,
+      "recall": 0.7251943301326017,
+      "f1": 0.8248244777671838
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.02175024524331093,
+    "metrics": {
+      "threshold": 0.05753443017601967,
+      "accuracy": 0.9086122406422688,
+      "precision": 0.958079268292683,
+      "recall": 0.7663465935070873,
+      "f1": 0.851553899568126
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.042778730392456055,
+    "metrics": {
+      "threshold": 0.06114138662815094,
+      "accuracy": 0.9188414856487993,
+      "precision": 0.9602575896964122,
+      "recall": 0.795458009449779,
+      "f1": 0.8701233744581527
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.0328003466129303,
+    "metrics": {
+      "threshold": 0.04943304508924484,
+      "accuracy": 0.9185598165902459,
+      "precision": 0.9553571428571429,
+      "recall": 0.7991159884164,
+      "f1": 0.8702796912606856
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.032477229833602905,
+    "metrics": {
+      "threshold": 0.0492769256234169,
+      "accuracy": 0.9171619226358044,
+      "precision": 0.9543128654970761,
+      "recall": 0.7959152568206066,
+      "f1": 0.8679464805119256
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0005654230481013656,
+    "metrics": {
+      "threshold": 0.007827909663319588,
+      "accuracy": 0.9019638485179976,
+      "precision": 0.7874431748372036,
+      "recall": 0.9768327998780674,
+      "f1": 0.8719727891156464
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.018220722675323486,
+    "metrics": {
+      "threshold": 0.05738095939159393,
+      "accuracy": 0.9052730304293456,
+      "precision": 0.9395736793327155,
+      "recall": 0.7725956409083982,
+      "f1": 0.847942455670793
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.02175387181341648,
+    "metrics": {
+      "threshold": 0.05177928879857063,
+      "accuracy": 0.910853925555208,
+      "precision": 0.954639175257732,
+      "recall": 0.7762536198750191,
+      "f1": 0.8562542030934769
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.047592893242836,
+    "metrics": {
+      "threshold": 0.07406436651945114,
+      "accuracy": 0.9176954732510288,
+      "precision": 0.9689324044436076,
+      "recall": 0.7843316567596403,
+      "f1": 0.8669137466307278
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.035843219608068466,
+    "metrics": {
+      "threshold": 0.0564965195953846,
+      "accuracy": 0.9186640266777825,
+      "precision": 0.9604051565377533,
+      "recall": 0.7948483462886755,
+      "f1": 0.8698190309398717
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.031816184520721436,
+    "metrics": {
+      "threshold": 0.04893851280212402,
+      "accuracy": 0.9174747158794704,
+      "precision": 0.9535349854227405,
+      "recall": 0.7975918305136412,
+      "f1": 0.8686198024732343
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0007579091470688581,
+    "metrics": {
+      "threshold": 0.010044555179774761,
+      "accuracy": 0.8990988175235713,
+      "precision": 0.7869910625620655,
+      "recall": 0.9663161103490322,
+      "f1": 0.8674830676609427
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.021140195429325104,
+    "metrics": {
+      "threshold": 0.04810303449630737,
+      "accuracy": 0.9032409337223843,
+      "precision": 0.9218077474892395,
+      "recall": 0.7834171620179851,
+      "f1": 0.8469967866853424
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.0217670239508152,
+    "metrics": {
+      "threshold": 0.05141172185540199,
+      "accuracy": 0.9114795120425399,
+      "precision": 0.9550814149354295,
+      "recall": 0.7777777777777778,
+      "f1": 0.857358870967742
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03618748486042023,
+    "metrics": {
+      "threshold": 0.0515996553003788,
+      "accuracy": 0.9174350158878991,
+      "precision": 0.9535180459351076,
+      "recall": 0.7972869989330895,
+      "f1": 0.8684319747655018
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.027735041454434395,
+    "metrics": {
+      "threshold": 0.0486317053437233,
+      "accuracy": 0.9160066694456024,
+      "precision": 0.9537869062901155,
+      "recall": 0.7927145252248133,
+      "f1": 0.865823206259364
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 10, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.030490951612591743,
+    "metrics": {
+      "threshold": 0.046841222792863846,
+      "accuracy": 0.9175789802940256,
+      "precision": 0.9553767373811266,
+      "recall": 0.7962200884011583,
+      "f1": 0.8685676282317732
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0007343118195421994,
+    "metrics": {
+      "threshold": 0.006008966825902462,
+      "accuracy": 0.8983695369068083,
+      "precision": 0.7852016827517941,
+      "recall": 0.9672306050906874,
+      "f1": 0.8667622754899951
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.002288312651216984,
+    "metrics": {
+      "threshold": 0.011374554596841335,
+      "accuracy": 0.8581700708628596,
+      "precision": 0.7247394918627795,
+      "recall": 0.9434537418076513,
+      "f1": 0.8197589723215467
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021752342581748962,
+    "metrics": {
+      "threshold": 0.051793422549963,
+      "accuracy": 0.9098634136169326,
+      "precision": 0.9500745156482862,
+      "recall": 0.7773205304069501,
+      "f1": 0.8550590996730656
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.04715736582875252,
+    "metrics": {
+      "threshold": 0.06855986267328262,
+      "accuracy": 0.9208730530812106,
+      "precision": 0.9641016200294551,
+      "recall": 0.7982014936747447,
+      "f1": 0.8733427832902526
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.0315646193921566,
+    "metrics": {
+      "threshold": 0.047956738620996475,
+      "accuracy": 0.9173614005835765,
+      "precision": 0.9531790854436145,
+      "recall": 0.7974394147233653,
+      "f1": 0.8683817427385893
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.03670978546142578,
+    "metrics": {
+      "threshold": 0.05250559747219086,
+      "accuracy": 0.9189344176832447,
+      "precision": 0.9531136857349747,
+      "recall": 0.8024691358024691,
+      "f1": 0.8713280926768722
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0005698528839275241,
+    "metrics": {
+      "threshold": 0.008948705159127712,
+      "accuracy": 0.9126946918789394,
+      "precision": 0.8122203758149048,
+      "recall": 0.9684499314128944,
+      "f1": 0.8834816462736373
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.006701312493532896,
+    "metrics": {
+      "threshold": 0.05837273597717285,
+      "accuracy": 0.8733326385994165,
+      "precision": 0.8396381578947368,
+      "recall": 0.7780826093583295,
+      "f1": 0.8076892650897872
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021743372082710266,
+    "metrics": {
+      "threshold": 0.05665881186723709,
+      "accuracy": 0.9088207694713795,
+      "precision": 0.957936810049486,
+      "recall": 0.7671086724584667,
+      "f1": 0.85196783749471
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.03807710111141205,
+    "metrics": {
+      "threshold": 0.05491205304861069,
+      "accuracy": 0.9181122050320363,
+      "precision": 0.9547857793983592,
+      "recall": 0.7982014936747447,
+      "f1": 0.8695002490453263
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.035732660442590714,
+    "metrics": {
+      "threshold": 0.050852302461862564,
+      "accuracy": 0.9181429762401,
+      "precision": 0.9534714649218466,
+      "recall": 0.7995732357872276,
+      "f1": 0.8697670562878222
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.033949870616197586,
+    "metrics": {
+      "threshold": 0.04868339002132416,
+      "accuracy": 0.9182566989886352,
+      "precision": 0.9526745240253853,
+      "recall": 0.8007925621094345,
+      "f1": 0.8701556806889699
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0021888294722884893,
+    "metrics": {
+      "threshold": 0.0070098708383738995,
+      "accuracy": 0.8574256394228265,
+      "precision": 0.7142536978933214,
+      "recall": 0.9714982472184118,
+      "f1": 0.8232483048111077
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.021737685427069664,
+    "metrics": {
+      "threshold": 0.0523282065987587,
+      "accuracy": 0.9105877448937058,
+      "precision": 0.953057789414625,
+      "recall": 0.7767108672458467,
+      "f1": 0.8558951965065503
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.0217499490827322,
+    "metrics": {
+      "threshold": 0.05191034451127052,
+      "accuracy": 0.9102804712751538,
+      "precision": 0.9545454545454546,
+      "recall": 0.7745770461819844,
+      "f1": 0.8551956247370636
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.038255102932453156,
+    "metrics": {
+      "threshold": 0.05423013120889664,
+      "accuracy": 0.9172266499973954,
+      "precision": 0.9536496350364964,
+      "recall": 0.7965249199817102,
+      "f1": 0.8680342164272071
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.03504813089966774,
+    "metrics": {
+      "threshold": 0.051602303981781006,
+      "accuracy": 0.9176740308461859,
+      "precision": 0.9548858447488584,
+      "recall": 0.7968297515622619,
+      "f1": 0.8687271518777002
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 20, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.034613803029060364,
+    "metrics": {
+      "threshold": 0.05171268433332443,
+      "accuracy": 0.9182566989886352,
+      "precision": 0.9548187283658226,
+      "recall": 0.7988111568358482,
+      "f1": 0.8698755186721994
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0006009623175486922,
+    "metrics": {
+      "threshold": 0.005363504868000746,
+      "accuracy": 0.9133718810230765,
+      "precision": 0.816899585921325,
+      "recall": 0.9622008840115835,
+      "f1": 0.8836167681433269
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.0069672781974077225,
+    "metrics": {
+      "threshold": 0.060435108840465546,
+      "accuracy": 0.9010004168403501,
+      "precision": 0.9180269058295965,
+      "recall": 0.7800640146319159,
+      "f1": 0.8434410019775873
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021726302802562714,
+    "metrics": {
+      "threshold": 0.052149686962366104,
+      "accuracy": 0.9097591492023772,
+      "precision": 0.9534359744648893,
+      "recall": 0.773967383020881,
+      "f1": 0.8543787330697401
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.04025436192750931,
+    "metrics": {
+      "threshold": 0.062034107744693756,
+      "accuracy": 0.9188935771214253,
+      "precision": 0.9645376903082065,
+      "recall": 0.7918000304831581,
+      "f1": 0.8696743952456683
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.03891053423285484,
+    "metrics": {
+      "threshold": 0.06262631714344025,
+      "accuracy": 0.9183513964151729,
+      "precision": 0.9642989959092599,
+      "recall": 0.7904282883706752,
+      "f1": 0.8687494765055701
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 1, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.03283015638589859,
+    "metrics": {
+      "threshold": 0.049725160002708435,
+      "accuracy": 0.9166927327703055,
+      "precision": 0.9532420091324201,
+      "recall": 0.795458009449779,
+      "f1": 0.8672316384180792
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0006056202109903097,
+    "metrics": {
+      "threshold": 0.008046763017773628,
+      "accuracy": 0.92280043756837,
+      "precision": 0.8356906807666887,
+      "recall": 0.9635726261240665,
+      "f1": 0.8950870734815234
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.0067691495642066,
+    "metrics": {
+      "threshold": 0.05848435312509537,
+      "accuracy": 0.8934972905377241,
+      "precision": 0.8933983626545898,
+      "recall": 0.7817405883249504,
+      "f1": 0.8338481547715818
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.02174537070095539,
+    "metrics": {
+      "threshold": 0.05209002271294594,
+      "accuracy": 0.909654884787822,
+      "precision": 0.9525684289463817,
+      "recall": 0.7744246303917086,
+      "f1": 0.8543085329970577
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.034318286925554276,
+    "metrics": {
+      "threshold": 0.05001256614923477,
+      "accuracy": 0.9177475647236547,
+      "precision": 0.9542304886943836,
+      "recall": 0.7975918305136412,
+      "f1": 0.8689082606890827
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.035598013550043106,
+    "metrics": {
+      "threshold": 0.05282251164317131,
+      "accuracy": 0.9168924551896623,
+      "precision": 0.9532676159182183,
+      "recall": 0.7959152568206066,
+      "f1": 0.8675139131157071
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 2, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.03464408218860626,
+    "metrics": {
+      "threshold": 0.05153009667992592,
+      "accuracy": 0.9167969971848609,
+      "precision": 0.9537561688905136,
+      "recall": 0.7953055936595032,
+      "f1": 0.8673537234042553
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 5}": {
+    "val_mse": 0.0011976526584476233,
+    "metrics": {
+      "threshold": 0.00817141029983759,
+      "accuracy": 0.8869615044017294,
+      "precision": 0.7606553484506707,
+      "recall": 0.9765279682975156,
+      "f1": 0.8551788574479445
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 10}": {
+    "val_mse": 0.018464259803295135,
+    "metrics": {
+      "threshold": 0.056869253516197205,
+      "accuracy": 0.9060025010421009,
+      "precision": 0.9420182122282104,
+      "recall": 0.7725956409083982,
+      "f1": 0.8489365265449674
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"adam\", \"window_size\": 20}": {
+    "val_mse": 0.021704301238059998,
+    "metrics": {
+      "threshold": 0.052626125514507294,
+      "accuracy": 0.9113752476279846,
+      "precision": 0.9559182142187207,
+      "recall": 0.7767108672458467,
+      "f1": 0.8570467541204172
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 5}": {
+    "val_mse": 0.04206660017371178,
+    "metrics": {
+      "threshold": 0.062439143657684326,
+      "accuracy": 0.9188935771214253,
+      "precision": 0.9614533382515676,
+      "recall": 0.7945435147081238,
+      "f1": 0.8700659267295335
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 10}": {
+    "val_mse": 0.04051905870437622,
+    "metrics": {
+      "threshold": 0.0582563616335392,
+      "accuracy": 0.9187161317215506,
+      "precision": 0.9599043590215193,
+      "recall": 0.795458009449779,
+      "f1": 0.8699783297216203
+    }
+  },
+  "{\"batch_size\": 32, \"epochs\": 50, \"hidden_dim\": 32, \"latent_dim\": 30, \"lr\": 0.001, \"num_layers\": 3, \"optimizer\": \"sgd\", \"window_size\": 20}": {
+    "val_mse": 0.027635987848043442,
+    "metrics": {
+      "threshold": 0.05071137845516205,
+      "accuracy": 0.9147638411010323,
+      "precision": 0.9554363905325444,
+      "recall": 0.7875323883554336,
+      "f1": 0.8633971091987636
+    }
+  }
+}

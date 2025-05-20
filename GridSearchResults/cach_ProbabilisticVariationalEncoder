@@ -1,0 +1,962 @@
+{
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -197.12733459472656,
+    "metrics": {
+      "threshold": -163.61878967285156,
+      "accuracy": 0.963179001093693,
+      "precision": 0.9203044227455486,
+      "recall": 0.9768327998780674,
+      "f1": 0.9477264325323476
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -88.53743743896484,
+    "metrics": {
+      "threshold": -72.78401184082031,
+      "accuracy": 0.8881829071402532,
+      "precision": 0.8225665010230927,
+      "recall": 0.8577960676726109,
+      "f1": 0.8398119823920018
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -199.18212890625,
+    "metrics": {
+      "threshold": -161.84120178222656,
+      "accuracy": 0.964949742200927,
+      "precision": 0.9225028702640643,
+      "recall": 0.9797286998933089,
+      "f1": 0.9502550077611057
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -21.848356246948242,
+    "metrics": {
+      "threshold": -2.561821937561035,
+      "accuracy": 0.8978699026092392,
+      "precision": 0.8841015364061456,
+      "recall": 0.8068891937204694,
+      "f1": 0.843732568332138
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -185.4936981201172,
+    "metrics": {
+      "threshold": -161.58485412597656,
+      "accuracy": 0.951096297067861,
+      "precision": 0.8935872304676561,
+      "recall": 0.9727175735406188,
+      "f1": 0.9314748595198131
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -92.0143814086914,
+    "metrics": {
+      "threshold": -57.7136344909668,
+      "accuracy": 0.907556898078225,
+      "precision": 0.9180642907058001,
+      "recall": 0.8009449778997104,
+      "f1": 0.8555148555148555
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -185.09629821777344,
+    "metrics": {
+      "threshold": -158.81663513183594,
+      "accuracy": 0.9572418103223791,
+      "precision": 0.9055963821368005,
+      "recall": 0.9766803840877915,
+      "f1": 0.9397961428466671
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -58.710693359375,
+    "metrics": {
+      "threshold": -33.593231201171875,
+      "accuracy": 0.9086505911150461,
+      "precision": 0.9336099585062241,
+      "recall": 0.7887517146776406,
+      "f1": 0.8550892267019168
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -199.18186950683594,
+    "metrics": {
+      "threshold": -153.72714233398438,
+      "accuracy": 0.96666840268736,
+      "precision": 0.9286231359490372,
+      "recall": 0.9775948788294467,
+      "f1": 0.9524799524799524
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -73.27661895751953,
+    "metrics": {
+      "threshold": -67.81587219238281,
+      "accuracy": 0.8798500078120931,
+      "precision": 0.7527328897338403,
+      "recall": 0.9655540313976528,
+      "f1": 0.8459638111771383
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -195.892578125,
+    "metrics": {
+      "threshold": -131.10372924804688,
+      "accuracy": 0.965887193375345,
+      "precision": 0.9308433031806245,
+      "recall": 0.9724127419600671,
+      "f1": 0.9511740588893032
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -50.010963439941406,
+    "metrics": {
+      "threshold": -17.2275447845459,
+      "accuracy": 0.90052601427009,
+      "precision": 0.9474696940542621,
+      "recall": 0.7504953513183966,
+      "f1": 0.8375574077224018
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -186.158447265625,
+    "metrics": {
+      "threshold": -178.41253662109375,
+      "accuracy": 0.9076089786990261,
+      "precision": 0.793141457440294,
+      "recall": 0.9870446578265508,
+      "f1": 0.8795327991307892
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -77.83641052246094,
+    "metrics": {
+      "threshold": -25.2465763092041,
+      "accuracy": 0.9091193167022551,
+      "precision": 0.9474173169825344,
+      "recall": 0.7771681146166742,
+      "f1": 0.8538893075441681
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -185.86212158203125,
+    "metrics": {
+      "threshold": -173.19757080078125,
+      "accuracy": 0.9306806937138691,
+      "precision": 0.8415621734587252,
+      "recall": 0.982014936747447,
+      "f1": 0.9063796862910599
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -33.3541374206543,
+    "metrics": {
+      "threshold": -10.181699752807617,
+      "accuracy": 0.914796104369564,
+      "precision": 0.9432943294329433,
+      "recall": 0.7986587410455723,
+      "f1": 0.8649719379333114
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -196.73020935058594,
+    "metrics": {
+      "threshold": -156.62814331054688,
+      "accuracy": 0.967970418207385,
+      "precision": 0.9215825297787862,
+      "recall": 0.9905502210028959,
+      "f1": 0.9548225960478954
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": 179.55075073242188,
+    "metrics": {
+      "threshold": 243.4214324951172,
+      "accuracy": 0.8700067704807042,
+      "precision": 0.9682100898410505,
+      "recall": 0.6406035665294925,
+      "f1": 0.771051183269125
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -187.36354064941406,
+    "metrics": {
+      "threshold": -152.52700805664062,
+      "accuracy": 0.9367220457267851,
+      "precision": 0.8990743505524037,
+      "recall": 0.9178478890413047,
+      "f1": 0.9083641300248888
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -73.10686492919922,
+    "metrics": {
+      "threshold": -49.04685974121094,
+      "accuracy": 0.914327378782355,
+      "precision": 0.9135262449528937,
+      "recall": 0.8276177411979881,
+      "f1": 0.8684526189524191
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -185.3448486328125,
+    "metrics": {
+      "threshold": -177.98008728027344,
+      "accuracy": 0.922295713764908,
+      "precision": 0.8242292439554817,
+      "recall": 0.982014936747447,
+      "f1": 0.8962303519265545
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -82.80330657958984,
+    "metrics": {
+      "threshold": -52.57497787475586,
+      "accuracy": 0.905369512004583,
+      "precision": 0.9136728287408441,
+      "recall": 0.7985063252552964,
+      "f1": 0.8522163481089873
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -186.7545623779297,
+    "metrics": {
+      "threshold": -175.02777099609375,
+      "accuracy": 0.9166710067184001,
+      "precision": 0.8187893586942553,
+      "recall": 0.9710409998475842,
+      "f1": 0.8884395481801701
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64, 32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -73.79046630859375,
+    "metrics": {
+      "threshold": -16.643115997314453,
+      "accuracy": 0.9106296547054841,
+      "precision": 0.9634589630763344,
+      "recall": 0.7675659198292943,
+      "f1": 0.854428232100441
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -201.9902801513672,
+    "metrics": {
+      "threshold": -167.02371215820312,
+      "accuracy": 0.963856049164106,
+      "precision": 0.9141606663843005,
+      "recall": 0.9868922420362749,
+      "f1": 0.9491351509821166
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -61.989784240722656,
+    "metrics": {
+      "threshold": -56.68778610229492,
+      "accuracy": 0.8993281599916672,
+      "precision": 0.8800919842312747,
+      "recall": 0.8166438042981253,
+      "f1": 0.8471815953830343
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -196.60284423828125,
+    "metrics": {
+      "threshold": -146.84510803222656,
+      "accuracy": 0.9703661267642311,
+      "precision": 0.9291034087653968,
+      "recall": 0.9887212315195855,
+      "f1": 0.9579856752565901
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -73.00599670410156,
+    "metrics": {
+      "threshold": -50.84196472167969,
+      "accuracy": 0.8983907088172491,
+      "precision": 0.9123434704830053,
+      "recall": 0.7773205304069501,
+      "f1": 0.839437083367624
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -191.90684509277344,
+    "metrics": {
+      "threshold": -154.44766235351562,
+      "accuracy": 0.962449872402479,
+      "precision": 0.9127791914051456,
+      "recall": 0.9841487578113093,
+      "f1": 0.947121378804547
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -85.23030853271484,
+    "metrics": {
+      "threshold": -33.107933044433594,
+      "accuracy": 0.9122441539503151,
+      "precision": 0.9342714641966512,
+      "recall": 0.7994208199969517,
+      "f1": 0.8616016427104722
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -190.53843688964844,
+    "metrics": {
+      "threshold": -164.4799346923828,
+      "accuracy": 0.9583355033592,
+      "precision": 0.9082919914953933,
+      "recall": 0.9766803840877915,
+      "f1": 0.9412455934195064
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -99.91313934326172,
+    "metrics": {
+      "threshold": -42.331634521484375,
+      "accuracy": 0.9040154158637571,
+      "precision": 0.9272002897500905,
+      "recall": 0.7803688462124676,
+      "f1": 0.847471654390466
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -203.08018493652344,
+    "metrics": {
+      "threshold": -172.31605529785156,
+      "accuracy": 0.967032967032967,
+      "precision": 0.915126050420168,
+      "recall": 0.9958847736625515,
+      "f1": 0.95379899277425
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -73.41126251220703,
+    "metrics": {
+      "threshold": -13.45466136932373,
+      "accuracy": 0.9045362220717671,
+      "precision": 0.9724220623501199,
+      "recall": 0.741655235482396,
+      "f1": 0.8415045395590143
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -206.95106506347656,
+    "metrics": {
+      "threshold": -144.61412048339844,
+      "accuracy": 0.9686474662777981,
+      "precision": 0.9370690919759425,
+      "recall": 0.973632068282274,
+      "f1": 0.9550007474958887
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -88.93582916259766,
+    "metrics": {
+      "threshold": -73.93216705322266,
+      "accuracy": 0.8952137909483882,
+      "precision": 0.8637454022069406,
+      "recall": 0.8231976832799878,
+      "f1": 0.8429842359918839
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -190.5358123779297,
+    "metrics": {
+      "threshold": -178.18563842773438,
+      "accuracy": 0.940940576011666,
+      "precision": 0.8568985926607918,
+      "recall": 0.9929888736473098,
+      "f1": 0.9199378706580061
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -79.66448211669922,
+    "metrics": {
+      "threshold": -43.992435455322266,
+      "accuracy": 0.91042133222228,
+      "precision": 0.9523453560082228,
+      "recall": 0.7767108672458467,
+      "f1": 0.8556077904633984
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -191.09210205078125,
+    "metrics": {
+      "threshold": -169.76487731933594,
+      "accuracy": 0.9442216551221291,
+      "precision": 0.8913601368691189,
+      "recall": 0.9529035208047554,
+      "f1": 0.9211049723756906
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -67.42700958251953,
+    "metrics": {
+      "threshold": -56.723690032958984,
+      "accuracy": 0.8914639862507161,
+      "precision": 0.8376829084326445,
+      "recall": 0.8463648834019204,
+      "f1": 0.8420015163002275
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -202.01681518554688,
+    "metrics": {
+      "threshold": -156.94955444335938,
+      "accuracy": 0.96666840268736,
+      "precision": 0.9242011749534317,
+      "recall": 0.9830818472793782,
+      "f1": 0.9527326440177252
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -66.68816375732422,
+    "metrics": {
+      "threshold": -38.70463562011719,
+      "accuracy": 0.9096922035310661,
+      "precision": 0.9340046754180903,
+      "recall": 0.7916476146928821,
+      "f1": 0.8569542979706319
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -201.30320739746094,
+    "metrics": {
+      "threshold": -172.25706481933594,
+      "accuracy": 0.968282901932191,
+      "precision": 0.9185654008438818,
+      "recall": 0.9954275262917238,
+      "f1": 0.9554531490015361
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -40.67870330810547,
+    "metrics": {
+      "threshold": -19.441593170166016,
+      "accuracy": 0.8996406437164731,
+      "precision": 0.948509485094851,
+      "recall": 0.7468373723517756,
+      "f1": 0.835678349108894
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -191.75575256347656,
+    "metrics": {
+      "threshold": -165.369873046875,
+      "accuracy": 0.955991875423155,
+      "precision": 0.9018560179977503,
+      "recall": 0.9775948788294467,
+      "f1": 0.9381993710231844
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -90.78512573242188,
+    "metrics": {
+      "threshold": -75.14563751220703,
+      "accuracy": 0.8916202281131191,
+      "precision": 0.8490183857899657,
+      "recall": 0.8305136412132297,
+      "f1": 0.8396640727328762
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -190.3379669189453,
+    "metrics": {
+      "threshold": -182.00982666015625,
+      "accuracy": 0.9132336857455341,
+      "precision": 0.8058992625921759,
+      "recall": 0.9827770156988264,
+      "f1": 0.8855926383738496
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [128, 64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -103.25347137451172,
+    "metrics": {
+      "threshold": -87.51872253417969,
+      "accuracy": 0.8973490964012291,
+      "precision": 0.8767235718975706,
+      "recall": 0.8140527358634354,
+      "f1": 0.8442266656128979
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -202.9620819091797,
+    "metrics": {
+      "threshold": -172.2371063232422,
+      "accuracy": 0.967293370136972,
+      "precision": 0.9225181598062954,
+      "recall": 0.9871970736168267,
+      "f1": 0.9537623324988956
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -103.2720718383789,
+    "metrics": {
+      "threshold": -96.20518493652344,
+      "accuracy": 0.935628352689964,
+      "precision": 0.8658787962072283,
+      "recall": 0.9603718945282731,
+      "f1": 0.910680734210146
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -107.57228088378906,
+    "metrics": {
+      "threshold": -106.29890441894531,
+      "accuracy": 0.9429717202229051,
+      "precision": 0.8764462809917355,
+      "recall": 0.9698216735253772,
+      "f1": 0.9207727371391361
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -102.10784912109375,
+    "metrics": {
+      "threshold": -86.29867553710938,
+      "accuracy": 0.9543252955575231,
+      "precision": 0.9145274212368728,
+      "recall": 0.9556470050297211,
+      "f1": 0.9346351643437429
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -105.34620666503906,
+    "metrics": {
+      "threshold": -101.50341796875,
+      "accuracy": 0.9101609291182751,
+      "precision": 0.8412362404741744,
+      "recall": 0.9085505258344765,
+      "f1": 0.8735985930973841
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -101.55198669433594,
+    "metrics": {
+      "threshold": -94.94580841064453,
+      "accuracy": 0.912608718295922,
+      "precision": 0.8470504619758351,
+      "recall": 0.9082456942539247,
+      "f1": 0.8765813474551338
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -105.38541412353516,
+    "metrics": {
+      "threshold": -102.1053237915039,
+      "accuracy": 0.9309410968178741,
+      "precision": 0.8576308238830441,
+      "recall": 0.9567139155616522,
+      "f1": 0.9044668587896253
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -101.43656158447266,
+    "metrics": {
+      "threshold": -91.74738311767578,
+      "accuracy": 0.9410447372532681,
+      "precision": 0.8980788971990028,
+      "recall": 0.9333942996494436,
+      "f1": 0.9153961136023917
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -107.698974609375,
+    "metrics": {
+      "threshold": -106.77561950683594,
+      "accuracy": 0.941617624082079,
+      "precision": 0.8748621830209482,
+      "recall": 0.9675354366712391,
+      "f1": 0.9188680610841716
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -100.65177917480469,
+    "metrics": {
+      "threshold": -82.09797668457031,
+      "accuracy": 0.9158377167855841,
+      "precision": 0.9138075313807531,
+      "recall": 0.8321902149062643,
+      "f1": 0.8710912571793235
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -107.35836029052734,
+    "metrics": {
+      "threshold": -104.85330200195312,
+      "accuracy": 0.959116712671215,
+      "precision": 0.9124535846900885,
+      "recall": 0.9737844840725499,
+      "f1": 0.9421219494212195
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -103.07486724853516,
+    "metrics": {
+      "threshold": -96.21371459960938,
+      "accuracy": 0.9429717202229051,
+      "precision": 0.894486143187067,
+      "recall": 0.9445206523395824,
+      "f1": 0.9188227444584476
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -104.8586654663086,
+    "metrics": {
+      "threshold": -101.23162841796875,
+      "accuracy": 0.8970366126764231,
+      "precision": 0.8371579876434245,
+      "recall": 0.8673982624599909,
+      "f1": 0.8520098809791151
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -102.90753936767578,
+    "metrics": {
+      "threshold": -97.39724731445312,
+      "accuracy": 0.935628352689964,
+      "precision": 0.8621956196435859,
+      "recall": 0.9660112787684804,
+      "f1": 0.9111558366877516
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -105.08586883544922,
+    "metrics": {
+      "threshold": -101.70906066894531,
+      "accuracy": 0.9055778344877871,
+      "precision": 0.8348377997179125,
+      "recall": 0.9021490626428899,
+      "f1": 0.8671892169071863
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -103.0287857055664,
+    "metrics": {
+      "threshold": -94.35047149658203,
+      "accuracy": 0.9316181448882871,
+      "precision": 0.8887407407407407,
+      "recall": 0.9143423258649596,
+      "f1": 0.9013597776275261
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -107.69348907470703,
+    "metrics": {
+      "threshold": -106.83647155761719,
+      "accuracy": 0.9470860892661841,
+      "precision": 0.8849090656670832,
+      "recall": 0.9714982472184118,
+      "f1": 0.9261842487648939
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -104.9512939453125,
+    "metrics": {
+      "threshold": -99.89448547363281,
+      "accuracy": 0.9420863496692881,
+      "precision": 0.8778255443073083,
+      "recall": 0.9647919524462735,
+      "f1": 0.9192564623874528
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -107.6688461303711,
+    "metrics": {
+      "threshold": -105.86690521240234,
+      "accuracy": 0.958908390188011,
+      "precision": 0.9068226670425712,
+      "recall": 0.9804907788446883,
+      "f1": 0.9422189674112047
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -101.46578979492188,
+    "metrics": {
+      "threshold": -88.94676208496094,
+      "accuracy": 0.944065413259726,
+      "precision": 0.900335619436743,
+      "recall": 0.9404054260021338,
+      "f1": 0.9199343968987626
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -105.42908477783203,
+    "metrics": {
+      "threshold": -100.46306610107422,
+      "accuracy": 0.9461486380917661,
+      "precision": 0.8825972587567493,
+      "recall": 0.9716506630086877,
+      "f1": 0.9249854904236796
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -102.2618179321289,
+    "metrics": {
+      "threshold": -91.11167907714844,
+      "accuracy": 0.954221134315921,
+      "precision": 0.9116198203419299,
+      "recall": 0.9590001524157903,
+      "f1": 0.9347099457773157
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -105.93070220947266,
+    "metrics": {
+      "threshold": -103.22138977050781,
+      "accuracy": 0.945523670642154,
+      "precision": 0.8735943639073296,
+      "recall": 0.9827770156988264,
+      "f1": 0.9249748959977047
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [64], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -95.19364929199219,
+    "metrics": {
+      "threshold": -56.68365478515625,
+      "accuracy": 0.9056299151085881,
+      "precision": 0.9291523585758178,
+      "recall": 0.783569577808261,
+      "f1": 0.850173639821399
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -107.350830078125,
+    "metrics": {
+      "threshold": -104.1778564453125,
+      "accuracy": 0.958387583980001,
+      "precision": 0.9094656054576464,
+      "recall": 0.9753086419753086,
+      "f1": 0.9412370375818195
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -102.88548278808594,
+    "metrics": {
+      "threshold": -98.021484375,
+      "accuracy": 0.9241185354929431,
+      "precision": 0.8582257158899494,
+      "recall": 0.9318701417466849,
+      "f1": 0.893533065400073
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -107.21064758300781,
+    "metrics": {
+      "threshold": -103.38813781738281,
+      "accuracy": 0.9609395343992501,
+      "precision": 0.9172770357604481,
+      "recall": 0.9734796524919982,
+      "f1": 0.9445430346051463
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -102.64608001708984,
+    "metrics": {
+      "threshold": -92.41246795654297,
+      "accuracy": 0.926149679704182,
+      "precision": 0.8906273735379007,
+      "recall": 0.8936137783874409,
+      "f1": 0.8921180766889836
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -104.15373229980469,
+    "metrics": {
+      "threshold": -100.98111724853516,
+      "accuracy": 0.8878183427946461,
+      "precision": 0.8005729095621335,
+      "recall": 0.8945282731290962,
+      "f1": 0.8449467319320473
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -98.02131652832031,
+    "metrics": {
+      "threshold": -83.5914077758789,
+      "accuracy": 0.9311494193010781,
+      "precision": 0.9045559845559845,
+      "recall": 0.8926992836457857,
+      "f1": 0.8985885240871433
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -102.32157897949219,
+    "metrics": {
+      "threshold": -86.17841339111328,
+      "accuracy": 0.9110462996718921,
+      "precision": 0.9127402619493111,
+      "recall": 0.8178631306203322,
+      "f1": 0.862700964630225
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 10, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -98.27960968017578,
+    "metrics": {
+      "threshold": -81.96359252929688,
+      "accuracy": 0.9060465600749961,
+      "precision": 0.8992781601477253,
+      "recall": 0.8164913885078494,
+      "f1": 0.8558875219683656
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -107.4224853515625,
+    "metrics": {
+      "threshold": -103.32786560058594,
+      "accuracy": 0.961720743711265,
+      "precision": 0.9218071242397915,
+      "recall": 0.9702789208962048,
+      "f1": 0.945422143016262
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -103.14514923095703,
+    "metrics": {
+      "threshold": -91.25381469726562,
+      "accuracy": 0.9560960366647571,
+      "precision": 0.909129937034917,
+      "recall": 0.9682975156226185,
+      "f1": 0.9377813860801535
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -107.33846282958984,
+    "metrics": {
+      "threshold": -105.38702392578125,
+      "accuracy": 0.9362012395187751,
+      "precision": 0.8638843426077468,
+      "recall": 0.9654016156073769,
+      "f1": 0.9118260994745555
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -102.85955047607422,
+    "metrics": {
+      "threshold": -98.29869842529297,
+      "accuracy": 0.9396385604916411,
+      "precision": 0.8766034578918015,
+      "recall": 0.9582380734644109,
+      "f1": 0.9156047476880508
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -103.70757293701172,
+    "metrics": {
+      "threshold": -97.4010009765625,
+      "accuracy": 0.9164106036143951,
+      "precision": 0.8893777498428661,
+      "recall": 0.8626733729614388,
+      "f1": 0.8758220502901355
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -99.96240234375,
+    "metrics": {
+      "threshold": -94.11697387695312,
+      "accuracy": 0.9233373261809281,
+      "precision": 0.8598500919247631,
+      "recall": 0.9266880048773053,
+      "f1": 0.892018779342723
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -103.93352508544922,
+    "metrics": {
+      "threshold": -96.45709228515625,
+      "accuracy": 0.932451434821103,
+      "precision": 0.8957894736842106,
+      "recall": 0.9079408626733729,
+      "f1": 0.9018242373779427
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 20, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -99.2493896484375,
+    "metrics": {
+      "threshold": -94.12367248535156,
+      "accuracy": 0.9223998750065101,
+      "precision": 0.8391065935535643,
+      "recall": 0.9562566681908246,
+      "f1": 0.8938595241487391
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -107.00989532470703,
+    "metrics": {
+      "threshold": -104.17790985107422,
+      "accuracy": 0.9485964272694131,
+      "precision": 0.8850511190936723,
+      "recall": 0.9763755525072397,
+      "f1": 0.9284730777592579
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -99.82425689697266,
+    "metrics": {
+      "threshold": -93.87422180175781,
+      "accuracy": 0.9401593666996511,
+      "precision": 0.880056179775281,
+      "recall": 0.9550373418686176,
+      "f1": 0.9160149111907026
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -107.2315902709961,
+    "metrics": {
+      "threshold": -104.62381744384766,
+      "accuracy": 0.954794021144732,
+      "precision": 0.8975003491132524,
+      "recall": 0.9795762841030331,
+      "f1": 0.9367439148812128
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.0, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -104.01228332519531,
+    "metrics": {
+      "threshold": -97.42877197265625,
+      "accuracy": 0.952294151346284,
+      "precision": 0.8944793850454228,
+      "recall": 0.9754610577655846,
+      "f1": 0.9332166812481774
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -104.02276611328125,
+    "metrics": {
+      "threshold": -100.12296295166016,
+      "accuracy": 0.8953700328107911,
+      "precision": 0.8123799066703267,
+      "recall": 0.9021490626428899,
+      "f1": 0.8549144218964397
+    }
+  },
+  "{\"activation\": \"relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -97.74969482421875,
+    "metrics": {
+      "threshold": -89.99221801757812,
+      "accuracy": 0.9130774438831311,
+      "precision": 0.8433464345873105,
+      "recall": 0.9157140679774425,
+      "f1": 0.878041651443186
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"adam\"}": {
+    "val_mse": -102.6469497680664,
+    "metrics": {
+      "threshold": -89.38099670410156,
+      "accuracy": 0.9030258840685381,
+      "precision": 0.9040412725709372,
+      "recall": 0.8012498094802621,
+      "f1": 0.8495475113122172
+    }
+  },
+  "{\"activation\": \"leaky_relu\", \"batch_size\": 32, \"dropout\": 0.1, \"epochs\": 50, \"hidden_layers\": [32], \"latent_dim\": 30, \"lr\": 0.001, \"optimizer\": \"sgd\"}": {
+    "val_mse": -99.11740112304688,
+    "metrics": {
+      "threshold": -95.69688415527344,
+      "accuracy": 0.9191187958960471,
+      "precision": 0.8293003682272488,
+      "recall": 0.9611339734796525,
+      "f1": 0.890363572184963
+    }
+  }
+}

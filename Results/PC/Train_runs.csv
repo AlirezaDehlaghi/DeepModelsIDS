@@ -1,0 +1,11 @@
+Model,TrainTime_sec,TrainRAM_MB,TrainPeakRAM_MB,ModelRAM_KB,DiskSize_KB,Params,CPU_Usage_percent
+AutoEncoder,333.24,56.41,56.41,34.95,53.27,11646,47.21
+VariationalAutoEncoder,405.35,56.61,56.61,37.45,55.63,11976,45.72
+ConditionalVariationalAutoEncoder,430.94,56.76,56.76,37.51,55.34,11811,45.1
+LSTMAutoEncoder,519.14,57.19,57.19,22.73,102.68,24414,59.77
+ProbabilisticVariationalEncoder,472.55,56.84,56.84,40.02,69.99,15356,45.4
+AutoEncoder,333.81,56.22,56.22,34.95,53.27,11646,47.56
+VariationalAutoEncoder,399.53,56.88,56.88,37.45,55.63,11976,45.47
+ConditionalVariationalAutoEncoder,428.45,56.82,56.82,37.51,55.34,11811,45.08
+LSTMAutoEncoder,513.83,57.44,57.44,22.73,102.68,24414,59.93
+ProbabilisticVariationalEncoder,479.91,56.97,56.97,40.02,69.99,15356,45.24
