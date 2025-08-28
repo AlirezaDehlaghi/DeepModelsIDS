@@ -6,6 +6,9 @@ import threading
 import pandas as pd
 from os import path
 
+import matplotlib
+matplotlib.use('Agg')
+from matplotlib import pyplot as plt
 from torch.utils.data import TensorDataset
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, roc_curve
 
@@ -204,37 +207,9 @@ if __name__ == "__main__":
         "AutoEncoder": AutoEncoder,
         "VariationalAutoEncoder": VariationalAutoEncoder,
         "ConditionalVariationalAutoEncoder": ConditionalVariationalAutoEncoder,
-        "LSTMAutoEncoder": LSTMAutoEncoder,
-        "ProbabilisticVariationalEncoder": ProbabilisticVariationalEncoder
-    }
+        "ProbabilisticVariationalEncoder": ProbabilisticVariationalEncoder,
+        "LSTMAutoEncoder": LSTMAutoEncoder
 
-    parser = argparse.ArgumentParser()
-    parser.add_argument("phase", choices=["train", "test"], help="Phase: train or test")
-    parser.add_argument("model_name", choices=model_classes.keys(), help="Model class name")
-    args = parser.parse_args()
-
-    Report.green(".")
-    Report.green(f" Experiment started for {args.phase}ing of {args.model_name}")
-    model_class = model_classes[args.model_name]
-
-    base_config = {
-        "hidden_layers": [64, 32],
-        "latent_dim": 10,
-        "dropout": 0.1,
-        "activation": "relu",
-        "batch_size": 32,
-        "lr": 1e-3,
-        "epochs": 50,
-        "optimizer": "adam",
-    } if model_class.__name__ != "LSTMAutoEncoder" else {
-        "hidden_dim": 32,
-        "latent_dim": 10,
-        "num_layers": 1,
-        "batch_size": 32,
-        "lr": 1e-3,
-        "optimizer": "adam",
-        "epochs": 50,
-        "window_size": 5,
     }
 
     BEST_CONFIG = {
@@ -355,28 +330,106 @@ if __name__ == "__main__":
         }
     }
 
-    base_config = BEST_CONFIG[args.model_name]
-    Report.cyan(f" Config: {base_config}")
-
-    window_size = base_config.get("window_size") if model_class.__name__ == "LSTMAutoEncoder" else None
     dataset_path = path.join('Dataset', 'Dataset.csv')
-    train_final, val_final, test_final, y_val, y_test = read_data(dataset_path, model_class, window_size)
 
-    if args.phase == "train":
-        result = profile_train(model_class, base_config, train_final)
-        output_csv_path = "Train_runs.csv"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("phase", choices=["train", "test"], help="Phase: train or test")
+    parser.add_argument("model_name", choices=list(model_classes.keys()) + ["all"] , help="Model class name")
+    args = parser.parse_args()
+
+    if args.model_name == "all" and args.phase == "test":
+        plt.figure(figsize=(10, 6))
+        colors = ['#66c2a5', '#fc8d62', '#8da0cb', '#e78ac3', '#a6d854']
+
+        for idx, (name, model_class) in enumerate(model_classes.items()):
+            config = BEST_CONFIG[name]
+            window_size = config.get("window_size") if model_class.__name__ == "LSTMAutoEncoder" else None
+            train_data, val_data, test_data, y_val, y_test = read_data(dataset_path, model_class, window_size)
+            x_test_tensor = torch.stack([x[0] for x in test_data])
+            c_test_tensor = torch.stack(
+                [x[1] for x in test_data]) if model_class.__name__ == "ConditionalVariationalAutoEncoder" else None
+
+            model_path = path.join("TrainedModels", f"{model_class.__name__}_trained.pt")
+            model = torch.load(model_path, weights_only=False)
+            device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+            model.to(device)
+            model.eval()
+
+            x_test = x_test_tensor.to(device)
+            c_test = c_test_tensor.to(device) if c_test_tensor is not None else None
+            errors = compute_reconstruction_error(model, x_test, cond_tensor=c_test, device=device)
+            fpr, tpr, _ = roc_curve(y_test.cpu().numpy(), errors)
+            auc = roc_auc_score(y_test.cpu().numpy(), errors)
+
+            linestyles = ['-', '--', '-.', ':', (0, (3, 1, 1, 1))]
+            plt.plot(fpr, tpr, label=f"{name} (AUC = {auc:.4f})", linewidth=3.5, color=colors[idx],
+                     linestyle=linestyles[idx])
+
+        plt.plot([0, 1], [0, 1], linestyle="--", color="gray", linewidth=1.5)
+        plt.title("ROC Curve Comparison of All Models", fontsize=20)
+        plt.xlabel("False Positive Rate", fontsize=16)
+        plt.xticks(fontsize=14)
+        plt.ylabel("True Positive Rate", fontsize=16)
+        plt.yticks(fontsize=14)
+        plt.legend(loc="lower right", fontsize=14)
+        plt.grid(True)
+        plt.tight_layout()
+        plt.savefig("all_models_auc_comparison.png")
+        output_path = os.path.join("Results", "all_models_auc_comparison.png")
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        plt.savefig(output_path)
+        Report.green(f"ROC curve saved to {output_path}")
+
     else:
-        result = profile_test(model_class, base_config, val_final, test_final, y_val, y_test)
-        output_csv_path = "Test_runs.csv"
 
-    if os.path.exists(output_csv_path):
-        existing_df = pd.read_csv(output_csv_path)
-        df = pd.concat([existing_df, pd.DataFrame([result])], ignore_index=True)
-    else:
-        df = pd.DataFrame([result])
+        Report.green(".")
+        Report.green(f" Experiment started for {args.phase}ing of {args.model_name}")
+        model_class = model_classes[args.model_name]
 
-    df.to_csv(output_csv_path, index=False)
-    Report.green(f"Results saved to {output_csv_path}")
+        base_config = {
+            "hidden_layers": [64, 32],
+            "latent_dim": 10,
+            "dropout": 0.1,
+            "activation": "relu",
+            "batch_size": 32,
+            "lr": 1e-3,
+            "epochs": 50,
+            "optimizer": "adam",
+        } if model_class.__name__ != "LSTMAutoEncoder" else {
+            "hidden_dim": 32,
+            "latent_dim": 10,
+            "num_layers": 1,
+            "batch_size": 32,
+            "lr": 1e-3,
+            "optimizer": "adam",
+            "epochs": 50,
+            "window_size": 5,
+        }
+
+
+
+        base_config = BEST_CONFIG[args.model_name]
+        Report.cyan(f" Config: {base_config}")
+
+        window_size = base_config.get("window_size") if model_class.__name__ == "LSTMAutoEncoder" else None
+
+        train_final, val_final, test_final, y_val, y_test = read_data(dataset_path, model_class, window_size)
+
+        if args.phase == "train":
+            result = profile_train(model_class, base_config, train_final)
+            output_csv_path = "Train_runs.csv"
+        else:
+            result = profile_test(model_class, base_config, val_final, test_final, y_val, y_test)
+            output_csv_path = "Test_runs.csv"
+
+        if os.path.exists(output_csv_path):
+            existing_df = pd.read_csv(output_csv_path)
+            df = pd.concat([existing_df, pd.DataFrame([result])], ignore_index=True)
+        else:
+            df = pd.DataFrame([result])
+
+        df.to_csv(output_csv_path, index=False)
+        Report.green(f"Results saved to {output_csv_path}")
 
 
 # # ResourceProfiler.py
